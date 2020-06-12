@@ -63,7 +63,6 @@ function onConnected() {
 function ExitGame(){
     stompClient.disconnect();
     //window.location.href = "http://39.106.105.119:8080/ew/fight.jsp";
-    //TODO 断开连接后返回原来界面
     // var index = parent.layer.getFrameIndex(window.name);
     // parent.layer.close(index);
 }

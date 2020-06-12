@@ -9,10 +9,7 @@ public class Competitor{
     private long Starttime;
     private Integer ID;
     private Integer rank;
-//    public Competitor(Integer ID, Integer rank){
-//        this.ID = ID;
-//        this.rank = rank;
-//    }
+
 
     public long getStarttime() {
         return Starttime;
