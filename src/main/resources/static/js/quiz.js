@@ -163,10 +163,8 @@ function onMessageReceived(payload){
             }
             toggleDialog(true);
         }else if(type === 'FINISH_NOPAIR'){
-            //TODO 等待对方完成
             window.alert("对方尚未完成,请等待！")
         } else if (type === 'WAIT'){
-            //TODO 结算一次，准备界面
             var chatMessage4 ={
                 type: 'DO_EXAM',
                 sender: userID,
@@ -213,7 +211,6 @@ function onMessageReceived(payload){
             console.log("server send an unrecognized message");
         }
     }else if(code === 201){
-        //TODO 提示无法在同一时间登录两个账号
         window.alert("该账号已在另外一场游戏中，请勿打扰,")
         //window.location.href = "http://39.106.105.119:8080/ew/fight.jsp";
         // var index = parent.layer.getFrameIndex(window.name);
